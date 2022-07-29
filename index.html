@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- awesome alerts2 -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <!-- game's mode -->
+    <div class="mode" id="mode">
+        <img src="/1_JhkS75vF0ZQFq26Phhv6Fg.gif" alt="GIF" id="image">
+        <h2>Choose your mode</h2>
+        <button id="1V1">1P VS 2P</button>
+        <button id="single">1P VS COM</button>
+    </div>
+    <!-- player's mark X or O -->
+    <div class="settings" id="settings">
+        <h2>chose your mark</h2>
+        <i class="far fa-circle fa-3x" id="setO"></i>
+        <i class="far fa-x fa-3x" id="setX"></i>
+    </div>
+    <!-- game's map -->
+    <div class="container" id="map">
+        <h1>Tic Tac Toe</h1>
+        <p id="turn"></p>
+        <div id="board">
+        </div>
+        <p id="winner"></p>
+        <div class="results">
+            <i class="far fa-circle fa-3x" id="Omark">: </i>
+            <button id="again">play again</button>
+            <i class="far fa-x fa-3x" id="Xmark">: </i>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
