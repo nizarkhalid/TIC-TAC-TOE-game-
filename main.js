@@ -134,10 +134,6 @@ function checkGame(a, b, c){
             document.getElementById("again").style.display = "block";
             document.getElementById("turn").textContent = mark + " Turn";
         }
-        if (mark === Xs) {
-            mark = Os;
-        }
-        else {mark = Xs;}
     }
 }
 
